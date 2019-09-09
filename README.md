@@ -2,28 +2,6 @@
 
 # Advanced git course - Practice repository
 
-## How to get started?
-
-- Fork this repository by clicking on the `Fork` button on the top right of this page.
-- Clone your forked repository to your local computer.
-
-:warning: **Make sure that you have your SSH key and `git` properly configured**.
-
-```bash
-$ git clone git@github.com:<yourName>/advanced-git-practice.git
-```
-
-## Create your own branch
-
-The development scheme is based on a stable `master` branch and a development branch named `develop`.
-
-Before making changes, create your own branch from `develop`:
-```bash
-$ cd advanced-git-practice 
-$ git checkout develop # this switches the branch to develop
-$ git checkout -b myBranch # this checks out a new branch called myBranch
-```
-
 ## Make your changes
 
 Copy the file `template.md` in the folder `_attendees` and rename it with your firstname:
