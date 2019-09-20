@@ -1,9 +1,10 @@
-image: ruby:2.1
+image: ruby:2.5
 
 pages:
+  stage: deploy
   script:
-  - gem install jekyll
-  - jekyll build -d public/
+  - bundle exec jekyll build -d public
   artifacts:
     paths:
     - public
+
