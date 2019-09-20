@@ -1,8 +1,0 @@
-theme: jekyll-theme-minimal
-logo: /assets/img/r3-training-logo.png
-title: Advanced git training - Practice repository
-description: This is a practice repository for advanced git training.
-url: https://lcsb-biocore.github.io/advanced-git-practice/
-collections:
-  attendees:
-    output: true
