@@ -2,22 +2,25 @@
 
 # Advanced git course - Practice repository
 
-## Make your changes
+First, fork and clone this practice repository.
 
-Copy the file `template.md` in the folder `_attendees` and rename it with your firstname:
-
+Add a remote to the upstream repository:
 ```bash
-$ cd _attendees
-$ cp template.md myName.md
+$ cd advanced-practice
+$ git remote add upstream ssh://git@git-r3lab-server.uni.lu:8022/R3/school/git/advanced-practice.git
+$ git fetch
 ```
 
-Then, make your changes with your favorite editor!
+Then, create a separate branch from the develop branch:
+```bash
+$ git checkout -b myBranch upstream/develop
+```
 
-## Commit your changes and push
+Add your name file in the `attendees` directory:
 
 When you are done editing your file, add the file to the stage and commit it:
 ```bash
-$ git add myName.md
+$ git add attendees/myName.md
 $ git commit -m "Edit the content of the subpage myName.md"
 ```
 
@@ -26,9 +29,9 @@ Once you are done committing, you can push your branch to your fork:
 $ git push origin myBranch
 ```
 
-## Open a pull-request
+## Open a merge request
 
-If you now browse to your fork on Github, you can open a pull request and submit it for review.
+If you now browse to your fork on Gitlab, you can open a pull request and submit it for review.
 
 :warning: Please make sure to select `develop` as the target branch.
 
