@@ -6,9 +6,9 @@ First, fork and clone this practice repository.
 
 Add a remote to the upstream repository:
 ```bash
-$ cd advanced-practice
-$ git remote add upstream ssh://git@git-r3lab-server.uni.lu:8022/R3/school/git/advanced-practice.git
-$ git fetch
+$ cd advanced-git-practice
+$ git remote add upstream git@github.com:LCSB-BioCore/advanced-git-practice.git
+$ git fetch upstream
 ```
 
 Then, create a separate branch from the develop branch:
@@ -31,7 +31,7 @@ $ git push origin myBranch
 
 ## Open a merge request
 
-If you now browse to your fork on Gitlab, you can open a pull request and submit it for review.
+If you now browse to your fork, you can open a pull request and submit it for review.
 
 :warning: Please make sure to select `develop` as the target branch.
 
