@@ -1,4 +1,4 @@
-<img src="assets/img/r3-training-logo.png" height="150px"/>
+<img src="https://raw.githubusercontent.com/LCSB-BioCore/basic-git-practice/master/assets/img/r3-training-logo.png" height="150px"/>
 
 # Advanced git course - Practice repository
 
@@ -29,13 +29,13 @@ Once you are done committing, you can push your branch to your fork:
 $ git push origin myBranch
 ```
 
-## Open a merge request
+## Open a pull request
 
 If you now browse to your fork, you can open a pull request and submit it for review.
 
 :warning: Please make sure to select `develop` as the target branch.
 
-:warning: Watch out for comments from the reviewer! If there are things to be changed, simply change locally, commit,
-and then push again. The pull-request will update automatically.
+:warning: Watch out for comments from the reviewer! If there are things to be changed, change the files locally, commit,
+and then push again. The pull request will update automatically.
 
 Once the pull request has been accepted, you will be able to see your page online! :tada:
